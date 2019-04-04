@@ -30,7 +30,7 @@ app.use(express.static('public'));
 app.use('/', routes);
 
 // Launch App
-var port = process.env.PORT || 3000;
+var port = 3000;
 
 app.listen(port, function()
 {

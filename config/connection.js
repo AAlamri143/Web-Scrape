@@ -7,7 +7,10 @@ mongoose.Promise = Promise;
 
 
 // mongoose.connect('mongodb://heroku_c0g2w7r4:1gebku9hkjm2f4cufid074ke8j@ds117431.mlab.com:17431/heroku_c0g2w7r4');
-mongoose.connect('mongodb://localhost/newHW', { useNewUrlParser: true });
+mongoose.connect('mongodb://localhost/newHW', { 
+  useCreateIndex: true,
+  useNewUrlParser: true
+ });
 
 var db = mongoose.connection;
 

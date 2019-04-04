@@ -22,7 +22,6 @@ function scrapedWeb(callback)
 
     //Target articles by tag
     $("h3.title").each(function(i, element) 
-    // $("span.cd__headline-text").each(function(i, element) 
     {
       
 
