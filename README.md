@@ -13,4 +13,4 @@
 * Morgan
 * Request
 
-![GitHub Logo](/public/assets/ima/scrape.png)
+![GitHub Logo](/public/assets/img/scrape.png)
